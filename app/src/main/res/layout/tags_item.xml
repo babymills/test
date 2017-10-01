@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tags_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+    <TextView
+        android:id="@+id/tags_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_0"
+        android:text="1" />
+    <TextView
+        android:id="@+id/tags_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_1"
+        android:text="2" />
+    <TextView
+        android:id="@+id/tags_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_2"
+        android:text="3" />
+    <TextView
+        android:id="@+id/tags_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_3"
+        android:text="4" />
+    <TextView
+        android:id="@+id/tags_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_4"
+        android:text="5" />
+    <TextView
+        android:id="@+id/tags_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags_5"
+        android:text="6" />
+
+
+</RelativeLayout>
